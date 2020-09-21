@@ -1,0 +1,136 @@
+1576223010134|5|statement|connection 0|SELECT COUNT(*) FROM users WHERE username=? AND `password`=?|SELECT COUNT(*) FROM users WHERE username='admin' AND `password`='e10adc3949ba59abbe56e057f20f883e'
+1576223010140|0|commit|connection 0||
+1576223383770|4|statement|connection 0|SELECT COUNT(*) FROM users WHERE username=? AND `password`=?|SELECT COUNT(*) FROM users WHERE username='admin' AND `password`='e10adc3949ba59abbe56e057f20f883e'
+1576223383774|0|commit|connection 0||
+1576224611791|3|statement|connection 0|SELECT COUNT(*) FROM users WHERE username=? AND `password`=?|SELECT COUNT(*) FROM users WHERE username='admin' AND `password`='e10adc3949ba59abbe56e057f20f883e'
+1576224611796|0|commit|connection 0||
+1576227014726|5|statement|connection 0|SELECT username,flag FROM users WHERE username=? AND `password`=?|SELECT username,flag FROM users WHERE username='admin' AND `password`='e10adc3949ba59abbe56e057f20f883e'
+1576227014734|1|commit|connection 0||
+1576227053284|0|statement|connection 0|SELECT username,flag FROM users WHERE username=? AND `password`=?|SELECT username,flag FROM users WHERE username='lisi' AND `password`='e10adc3949ba59abbe56e057f20f883e'
+1576227053285|0|commit|connection 0||
+1576227143474|4|statement|connection 0|SELECT username,flag FROM users WHERE username=? AND `password`=?|SELECT username,flag FROM users WHERE username='lisi' AND `password`='e10adc3949ba59abbe56e057f20f883e'
+1576227143481|0|commit|connection 0||
+1576227192377|1|statement|connection 0|SELECT username,flag FROM users WHERE username=? AND `password`=?|SELECT username,flag FROM users WHERE username='admin' AND `password`='e10adc3949ba59abbe56e057f20f883e'
+1576227192380|0|commit|connection 0||
+1576227791054|6|statement|connection 0|SELECT username,flag FROM users WHERE username=? AND `password`=?|SELECT username,flag FROM users WHERE username='admin' AND `password`='e10adc3949ba59abbe56e057f20f883e'
+1576227791061|0|commit|connection 0||
+1576227796180|1|statement|connection 0|SELECT * FROM users|SELECT * FROM users
+1576227796186|1|commit|connection 0||
+1576228753914|5|statement|connection 0|SELECT username,flag FROM users WHERE username=? AND `password`=?|SELECT username,flag FROM users WHERE username='admin' AND `password`='e10adc3949ba59abbe56e057f20f883e'
+1576228753925|2|commit|connection 0||
+1576228757584|0|statement|connection 0|SELECT * FROM users|SELECT * FROM users
+1576228757586|0|commit|connection 0||
+1576229231710|6|statement|connection 0|SELECT username,flag FROM users WHERE username=? AND `password`=?|SELECT username,flag FROM users WHERE username='admin' AND `password`='e10adc3949ba59abbe56e057f20f883e'
+1576229231716|1|commit|connection 0||
+1576229234140|1|statement|connection 0|SELECT * FROM users|SELECT * FROM users
+1576229234143|1|commit|connection 0||
+1576229236460|2|statement|connection 0|DELETE FROM users WHERE id=?|DELETE FROM users WHERE id='2'
+1576229236465|5|commit|connection 0||
+1576229238377|1|statement|connection 0|SELECT * FROM users|SELECT * FROM users
+1576229238378|0|commit|connection 0||
+1576229255024|4|statement|connection 0|DELETE FROM users WHERE id=?|DELETE FROM users WHERE id='3'
+1576229255032|8|commit|connection 0||
+1576229258208|2|statement|connection 0|SELECT * FROM users|SELECT * FROM users
+1576229258210|1|commit|connection 0||
+1576229280387|6|statement|connection 0|DELETE FROM users WHERE id=?|DELETE FROM users WHERE id='4'
+1576229280389|1|commit|connection 0||
+1576229284457|1|statement|connection 0|SELECT * FROM users|SELECT * FROM users
+1576229284458|1|commit|connection 0||
+1576388976831|1|statement|connection 0|SELECT username,flag FROM users WHERE username=? AND `password`=?|SELECT username,flag FROM users WHERE username='admin' AND `password`='e10adc3949ba59abbe56e057f20f883e'
+1576388976838|1|commit|connection 0||
+1576388981904|0|statement|connection 0|SELECT * FROM users|SELECT * FROM users
+1576388981906|1|commit|connection 0||
+1576388986404|0|statement|connection 0|SELECT * FROM users|SELECT * FROM users
+1576388986405|0|commit|connection 0||
+1576389006756|0|statement|connection 0|SELECT * FROM users|SELECT * FROM users
+1576389006757|0|commit|connection 0||
+1576389588709|1|statement|connection 0|SELECT * FROM users|SELECT * FROM users
+1576389588712|1|commit|connection 0||
+1576389593316|1|statement|connection 0|SELECT * FROM users|SELECT * FROM users
+1576389593317|1|commit|connection 0||
+1576389629733|1|statement|connection 0|SELECT * FROM users|SELECT * FROM users
+1576389629734|0|commit|connection 0||
+1576389762021|0|statement|connection 0|SELECT * FROM users|SELECT * FROM users
+1576389762026|3|commit|connection 0||
+1576391789289|1|statement|connection 0|SELECT username,flag FROM users WHERE username=? AND `password`=?|SELECT username,flag FROM users WHERE username='admin' AND `password`='e10adc3949ba59abbe56e057f20f883e'
+1576391789295|0|commit|connection 0||
+1576391799745|1|statement|connection 0|SELECT COUNT(*) FROM users WHERE username=?|SELECT COUNT(*) FROM users WHERE username='lisi'
+1576391799746|0|commit|connection 0||
+1576391809026|1|statement|connection 0|SELECT COUNT(*) FROM users WHERE username=?|SELECT COUNT(*) FROM users WHERE username='zhangsan'
+1576391809027|1|commit|connection 0||
+1576391815123|1|statement|connection 0|SELECT COUNT(*) FROM users WHERE username=?|SELECT COUNT(*) FROM users WHERE username='bigbird'
+1576391815130|4|statement|connection 0|INSERT INTO users SET username=?,`password`=?|INSERT INTO users SET username='bigbird',`password`='e10adc3949ba59abbe56e057f20f883e'
+1576391815133|2|commit|connection 0||
+1576391818238|1|statement|connection 0|SELECT * FROM users|SELECT * FROM users
+1576391818241|0|commit|connection 0||
+1576391833515|4|statement|connection 0|DELETE FROM users WHERE id=?|DELETE FROM users WHERE id='5'
+1576391833517|2|commit|connection 0||
+1576391836513|0|statement|connection 0|SELECT * FROM users|SELECT * FROM users
+1576391836515|1|commit|connection 0||
+1576393170003|1|statement|connection 0|SELECT username,flag FROM users WHERE username=? AND `password`=?|SELECT username,flag FROM users WHERE username='admin' AND `password`='e10adc3949ba59abbe56e057f20f883e'
+1576393170011|0|commit|connection 0||
+1576393226649|1|statement|connection 0|SELECT username,flag FROM users WHERE username=? AND `password`=?|SELECT username,flag FROM users WHERE username='admin' AND `password`='e10adc3949ba59abbe56e057f20f883e'
+1576393226660|1|commit|connection 0||
+1576393231159|1|statement|connection 0|SELECT c.`courseType`,cr.`id` AS courseId,cr.`courseName`, cr.`description`,cr.`courseTime`,u.`username` FROM catogory c  INNER JOIN courses cr  ON c.`id`=cr.`cID` INNER JOIN users u ON u.`id`=cr.`uID`|SELECT c.`courseType`,cr.`id` AS courseId,cr.`courseName`, cr.`description`,cr.`courseTime`,u.`username` FROM catogory c  INNER JOIN courses cr  ON c.`id`=cr.`cID` INNER JOIN users u ON u.`id`=cr.`uID`
+1576393231161|0|commit|connection 0||
+1576395149787|2|statement|connection 0|SELECT username,flag FROM users WHERE username=? AND `password`=?|SELECT username,flag FROM users WHERE username='admin' AND `password`='e10adc3949ba59abbe56e057f20f883e'
+1576395149793|0|commit|connection 0||
+1576395319575|1|statement|connection 0|SELECT c.`courseType`,cr.`id` AS courseId,cr.`courseName`, cr.`description`,cr.`courseTime`,u.`username` FROM catogory c  INNER JOIN courses cr  ON c.`id`=cr.`cID` INNER JOIN users u ON u.`id`=cr.`uID`|SELECT c.`courseType`,cr.`id` AS courseId,cr.`courseName`, cr.`description`,cr.`courseTime`,u.`username` FROM catogory c  INNER JOIN courses cr  ON c.`id`=cr.`cID` INNER JOIN users u ON u.`id`=cr.`uID`
+1576395319577|1|commit|connection 0||
+1576395897271|5|statement|connection 0|SELECT username,flag FROM users WHERE username=? AND `password`=?|SELECT username,flag FROM users WHERE username='admin' AND `password`='e10adc3949ba59abbe56e057f20f883e'
+1576395897279|2|commit|connection 0||
+1576395900153|10|statement|connection 0|SELECT * FROM catogory|SELECT * FROM catogory
+1576395900155|0|commit|connection 0||
+1576395938813|1|statement|connection 0|SELECT * FROM catogory|SELECT * FROM catogory
+1576395938814|1|commit|connection 0||
+1576396105286|1|statement|connection 0|SELECT * FROM catogory|SELECT * FROM catogory
+1576396105289|0|commit|connection 0||
+1576397209895|1|statement|connection 0|SELECT username,flag FROM users WHERE username=? AND `password`=?|SELECT username,flag FROM users WHERE username='admin' AND `password`='e10adc3949ba59abbe56e057f20f883e'
+1576397209907|2|commit|connection 0||
+1576397214134|1|statement|connection 0|SELECT * FROM catogory|SELECT * FROM catogory
+1576397214136|1|commit|connection 0||
+1576397255107|0|statement|connection 0|select count(*) from catogory where id=?|select count(*) from catogory where id='6'
+1576397255110|1|statement|connection 0|INSERT INTO courses SET courseName=?,cID=?,description=?,courseTime=?,uID=?|INSERT INTO courses SET courseName='房屋托管',cID='6',description='很简单',courseTime='500',uID=NULL
+1576397255115|4|commit|connection 0||
+1576397255124|1|statement|connection 0|SELECT c.`courseType`,cr.`id` AS courseId,cr.`courseName`, cr.`description`,cr.`courseTime`,u.`username` FROM catogory c  INNER JOIN courses cr  ON c.`id`=cr.`cID` INNER JOIN users u ON u.`id`=cr.`uID`|SELECT c.`courseType`,cr.`id` AS courseId,cr.`courseName`, cr.`description`,cr.`courseTime`,u.`username` FROM catogory c  INNER JOIN courses cr  ON c.`id`=cr.`cID` INNER JOIN users u ON u.`id`=cr.`uID`
+1576397255125|1|commit|connection 0||
+1576397302423|1|statement|connection 0|SELECT c.`courseType`,cr.`id` AS courseId,cr.`courseName`, cr.`description`,cr.`courseTime`,u.`username` FROM catogory c  INNER JOIN courses cr  ON c.`id`=cr.`cID` INNER JOIN users u ON u.`id`=cr.`uID`|SELECT c.`courseType`,cr.`id` AS courseId,cr.`courseName`, cr.`description`,cr.`courseTime`,u.`username` FROM catogory c  INNER JOIN courses cr  ON c.`id`=cr.`cID` INNER JOIN users u ON u.`id`=cr.`uID`
+1576397302424|0|commit|connection 0||
+1576397313075|1|statement|connection 0|SELECT c.`courseType`,cr.`id` AS courseId,cr.`courseName`, cr.`description`,cr.`courseTime`,u.`username` FROM catogory c  INNER JOIN courses cr  ON c.`id`=cr.`cID` INNER JOIN users u ON u.`id`=cr.`uID`|SELECT c.`courseType`,cr.`id` AS courseId,cr.`courseName`, cr.`description`,cr.`courseTime`,u.`username` FROM catogory c  INNER JOIN courses cr  ON c.`id`=cr.`cID` INNER JOIN users u ON u.`id`=cr.`uID`
+1576397313076|0|commit|connection 0||
+1576397563269|1|statement|connection 0|SELECT username,flag,id FROM users WHERE username=? AND `password`=?|SELECT username,flag,id FROM users WHERE username='admin' AND `password`='e10adc3949ba59abbe56e057f20f883e'
+1576397563274|0|commit|connection 0||
+1576397566257|1|statement|connection 0|SELECT * FROM users|SELECT * FROM users
+1576397566259|0|commit|connection 0||
+1576397568198|21|statement|connection 0|SELECT c.`courseType`,cr.`id` AS courseId,cr.`courseName`, cr.`description`,cr.`courseTime`,u.`username` FROM catogory c  INNER JOIN courses cr  ON c.`id`=cr.`cID` INNER JOIN users u ON u.`id`=cr.`uID`|SELECT c.`courseType`,cr.`id` AS courseId,cr.`courseName`, cr.`description`,cr.`courseTime`,u.`username` FROM catogory c  INNER JOIN courses cr  ON c.`id`=cr.`cID` INNER JOIN users u ON u.`id`=cr.`uID`
+1576397568202|2|commit|connection 0||
+1576397582627|1|statement|connection 0|SELECT c.`courseType`,cr.`id` AS courseId,cr.`courseName`, cr.`description`,cr.`courseTime`,u.`username` FROM catogory c  INNER JOIN courses cr  ON c.`id`=cr.`cID` INNER JOIN users u ON u.`id`=cr.`uID`|SELECT c.`courseType`,cr.`id` AS courseId,cr.`courseName`, cr.`description`,cr.`courseTime`,u.`username` FROM catogory c  INNER JOIN courses cr  ON c.`id`=cr.`cID` INNER JOIN users u ON u.`id`=cr.`uID`
+1576397582629|1|commit|connection 0||
+1576397585415|1|statement|connection 0|SELECT * FROM catogory|SELECT * FROM catogory
+1576397585417|1|commit|connection 0||
+1576397668922|4|statement|connection 0|SELECT username,flag,id FROM users WHERE username=? AND `password`=?|SELECT username,flag,id FROM users WHERE username='admin' AND `password`='e10adc3949ba59abbe56e057f20f883e'
+1576397668927|0|commit|connection 0||
+1576397671637|4|statement|connection 0|SELECT * FROM catogory|SELECT * FROM catogory
+1576397671638|0|commit|connection 0||
+1576397684473|0|statement|connection 0|select count(*) from catogory where id=?|select count(*) from catogory where id='1'
+1576397684482|6|statement|connection 0|INSERT INTO courses SET courseName=?,cID=?,description=?,courseTime=?,uID=?|INSERT INTO courses SET courseName='课程后台管理系统',cID='1',description='太麻烦了',courseTime='20',uID=NULL
+1576397684487|4|commit|connection 0||
+1576397684541|1|statement|connection 0|SELECT c.`courseType`,cr.`id` AS courseId,cr.`courseName`, cr.`description`,cr.`courseTime`,u.`username` FROM catogory c  INNER JOIN courses cr  ON c.`id`=cr.`cID` INNER JOIN users u ON u.`id`=cr.`uID`|SELECT c.`courseType`,cr.`id` AS courseId,cr.`courseName`, cr.`description`,cr.`courseTime`,u.`username` FROM catogory c  INNER JOIN courses cr  ON c.`id`=cr.`cID` INNER JOIN users u ON u.`id`=cr.`uID`
+1576397684542|0|commit|connection 0||
+1576397829286|3|statement|connection 0|SELECT username,flag,id FROM users WHERE username=? AND `password`=?|SELECT username,flag,id FROM users WHERE username='admin' AND `password`='e10adc3949ba59abbe56e057f20f883e'
+1576397829303|0|commit|connection 0||
+1576397832336|4|statement|connection 0|SELECT * FROM catogory|SELECT * FROM catogory
+1576397832338|1|commit|connection 0||
+1576397859069|3|statement|connection 0|select count(*) from catogory where id=?|select count(*) from catogory where id='6'
+1576397859114|28|statement|connection 0|INSERT INTO courses SET courseName=?,cID=?,description=?,courseTime=?,uID=?|INSERT INTO courses SET courseName='课程后台管理系统',cID='6',description='真的很麻烦',courseTime='200',uID='1'
+1576397859117|3|commit|connection 0||
+1576397859126|0|statement|connection 0|SELECT c.`courseType`,cr.`id` AS courseId,cr.`courseName`, cr.`description`,cr.`courseTime`,u.`username` FROM catogory c  INNER JOIN courses cr  ON c.`id`=cr.`cID` INNER JOIN users u ON u.`id`=cr.`uID`|SELECT c.`courseType`,cr.`id` AS courseId,cr.`courseName`, cr.`description`,cr.`courseTime`,u.`username` FROM catogory c  INNER JOIN courses cr  ON c.`id`=cr.`cID` INNER JOIN users u ON u.`id`=cr.`uID`
+1576397859128|0|commit|connection 0||
+1576399240866|5|statement|connection 0|SELECT * FROM courses|SELECT * FROM courses
+1576399292019|6|statement|connection 0|SELECT * FROM courses|SELECT * FROM courses
+1576399724481|1|statement|connection 0|SELECT username,flag,id FROM users WHERE username=? AND `password`=?|SELECT username,flag,id FROM users WHERE username='admin' AND `password`='e10adc3949ba59abbe56e057f20f883e'
+1576399724488|0|commit|connection 0||
+1576399758954|9|statement|connection 0|SELECT c.`courseType`,cr.`id` AS courseId,cr.`courseName`, cr.`description`,cr.`courseTime`,u.`username` FROM catogory c  INNER JOIN courses cr  ON c.`id`=cr.`cID` INNER JOIN users u ON u.`id`=cr.`uID`|SELECT c.`courseType`,cr.`id` AS courseId,cr.`courseName`, cr.`description`,cr.`courseTime`,u.`username` FROM catogory c  INNER JOIN courses cr  ON c.`id`=cr.`cID` INNER JOIN users u ON u.`id`=cr.`uID`
+1576399758958|0|commit|connection 0||
+1576401623797|1|statement|connection 0|SELECT c.`courseType`,cr.`id` AS courseId,cr.`courseName`, cr.`description`,cr.`courseTime`,u.`username` FROM catogory c  INNER JOIN courses cr  ON c.`id`=cr.`cID` INNER JOIN users u ON u.`id`=cr.`uID`|SELECT c.`courseType`,cr.`id` AS courseId,cr.`courseName`, cr.`description`,cr.`courseTime`,u.`username` FROM catogory c  INNER JOIN courses cr  ON c.`id`=cr.`cID` INNER JOIN users u ON u.`id`=cr.`uID`
+1576401623975|1|commit|connection 0||
